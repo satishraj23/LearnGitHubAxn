@@ -1,10 +1,9 @@
+---
 name: Test GitHub Actions
-
 on:
   push:
-    branches: [master]
-  
-
+    branches:
+      - master
 jobs:
   test:
     runs-on: ubuntu-latest
